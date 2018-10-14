@@ -38,12 +38,12 @@
   <DonateImg/>
   <Data>
     <Volume>
-      <HostDir>/mnt/user/appdata/jupyter-lab</HostDir>
+      <HostDir>/mnt/user/appdata/jupyterconfig</HostDir>
       <ContainerDir>/home/jovyan/.jupyter</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
     <Volume>
-      <HostDir>/mnt/user/appdata/jupyter-lab/notebooks</HostDir>
+      <HostDir>/mnt/user/appdata/jupyter</HostDir>
       <ContainerDir>/home/jovyan/work</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
