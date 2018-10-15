@@ -5,8 +5,11 @@
   <Category>Tools:Other</Category>
   <Name>Jupyter</Name>
   <Changes>
+    [font size=3]2018.10.15[/font]
+    - v3: Added octave package stuff and a few useful packages
+    - v2: Hard coded some versions and added jupyter extensions
     [font size=3]2018.10.13[/font]
-    - Initial Release
+    - v1: Initial Release
   </Changes>
   <Overview>
     Docker container built on Jupyter's Deep Learning Jupyter Stack with custom kernels and packages in addition.
