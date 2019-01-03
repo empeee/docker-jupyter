@@ -22,6 +22,7 @@ USER $NB_UID
 RUN conda install --quiet --yes \
     'octave_kernel=0.28.4' \
     'mpld3=0.3' && \
+    conda install --quiet --yes -c damianavila82 rise=5.3.0 && \
     conda clean -tipsy && \
     fix-permissions $CONDA_DIR && \
     fix-permissions /home/$NB_USER
