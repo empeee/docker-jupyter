@@ -15,3 +15,4 @@ This is built off of the [Jupyter Notebook Deep Learning Stack](https://github.c
   * [python-control](http://python-control.readthedocs.io/en/latest/index.html) - Python control systems library
   * [TensorFlow](https://www.tensorflow.org) - Open source software library for high performance numerical computation
   * [mpld3](http://mpld3.github.io/) - Bringing Matplotlib to the Browser
+  * [lcapy](http://lcapy.elec.canterbury.ac.nz/index.html) - Python package for linear circuit analysis
