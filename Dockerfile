@@ -42,8 +42,8 @@ RUN pip install \
 
 # Labextension install
 RUN jupyter labextension install \
-    @jupyterlab/toc \
-    jupyterlab-drawio
+    @jupyterlab/toc
+#    jupyterlab-drawio
 
 # Octave installs
 RUN octave --eval "pkg install -forge control io statistics"
