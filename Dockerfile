@@ -43,7 +43,7 @@ RUN pip install \
 # Labextension install
 RUN jupyter labextension install \
     @jupyterlab/toc \
-    jupyterlab_vim
+#    jupyterlab_vim
 #    jupyterlab-drawio
 
 # Octave installs
