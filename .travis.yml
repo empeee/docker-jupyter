@@ -2,7 +2,7 @@ services:
   - docker
 
 install:
-  - docker build -t empeee/jupyter
+  - docker build -t empeee/jupyter:latest .
   - ./docker-run.sh
 
 script:
