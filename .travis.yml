@@ -1,0 +1,9 @@
+services:
+  - docker
+
+install:
+  - docker build -t empeee/jupyter
+  - ./docker-run.sh
+
+script:
+  - docker ps | grep -q jupyter
